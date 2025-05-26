@@ -2,9 +2,10 @@
 
 ## Welche Endpunkte gibt es?
 
-## Auf welchem Port wird die App ausgeführt?
+## Auf welchem Port ist der API-Gateway ansprechbar?
 
 ## Sind alle Anforderungen erfüllt?
-- [ ] Mindestens 1 Endpunkt
+- [ ] 2 Mini-APIs
+- [ ] API-Gateway
 - [ ] docker-compose.yaml erstellt
 - [ ] Fragen oben beantwortet
