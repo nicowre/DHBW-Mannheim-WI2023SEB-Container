@@ -19,8 +19,8 @@ const proxyRequest = (res, method, url, data = null) => {
 };
 
 // Nur die Endpoints, die auch im Backend existieren
-app.get('/', (req, res) => proxyRequest(res, 'get', 'http://localhost:3000/'));
-app.post('/data', (req, res) => proxyRequest(res, 'post', 'http://localhost:3000/data', req.body));
+app.get('/', (req, res) => proxyRequest(res, 'get', 'http://localhost:3002/'));
+app.post('/data', (req, res) => proxyRequest(res, 'post', 'http://localhost:3002/data', req.body));
 
 app.listen(PORT, () => {
   console.log(`API Gateway läuft auf Port ${PORT}`);
