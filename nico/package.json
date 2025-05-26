@@ -1,0 +1,15 @@
+{
+  "name": "simple-express-api",
+  "version": "1.0.0",
+  "description": "Ein einfaches Express API mit API Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "node index.js",
+    "start:gateway": "node api-gateway.js"
+  },
+  "dependencies": {
+    "axios": "1.9.0",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
